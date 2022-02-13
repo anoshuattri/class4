@@ -1,0 +1,175 @@
+:root[
+    __primary:#e2e515 ;
+]
+
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #6600f2;
+	color: white;
+}
+
+.flex{
+      display: flex;
+}
+
+.logo{
+	flex-basis: 30%;
+
+}
+.nav{
+	flex-basis: 70%;
+}
+.nav ul{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+
+header .nav a{
+	    color:white ;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 12px;
+	display: block; 
+}
+
+header .nav a:hover{
+	color: yellow;
+}
+
+header .logo a{
+	color: #e2e515;
+}
+.container-bg{
+    width:100%;
+	height: 100%;
+	margin: auto;
+	background: rgb(102,255,118);
+    background: linear-gradient(63deg, rgba(102,255,118,1) 0%, rgba(110,208,146,0.4051724137931034) 17%, rgba(135,62,235,0.4181034482758621) 70%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.container-bg img{
+    width: 500px;
+    height:400px;
+    object-fit:cover;
+    border-radius: 15px;
+
+}
+.container{
+    width:100%;
+	height: 100%;
+	margin: auto;
+	background-color: rgb( 245,245,245,);
+    position: 50px;
+    text-align: center;
+}
+ .benner-section{
+ 	height: 500px;
+ 	width: 100%;
+ 	object-fit: cover;
+ 	border-radius: 13px;
+ }
+ .feature-section{
+ 	padding-top:60px;
+ 	padding-bottom:60px;
+ }
+ .feature{
+ 	width:33.33%;
+ 	padding: 20px;
+ 	text-align: center;
+ 	border: 1px solid blue;
+ 	border-radius:10px;
+ 	background: #acf4f6;
+ 	margin:10px;
+ 	cursor: pointer;
+ }
+ .feature:hover{
+ 	background: rgb(102,255,118);
+background: linear-gradient(63deg, rgba(102,255,118,1) 0%, rgba(110,208,146,0.4051724137931034) 17%, rgba(135,62,235,0.4181034482758621) 70%);
+ }
+ .feature h1{
+ 	    font-size: 30px;
+ 	margin: 0;
+ }
+ .feature p{
+        margin: 0;
+    font-size:20px; 
+ }
+
+
+ .aboutme-section{
+ 	padding: 40px;
+ 	padding-bottom: 40px;
+ }
+ .aboutme{
+ 	flex-basis: 60%;
+ 	padding: 30;
+ 	text-align:left;
+ 	padding-right:20px ;
+ }
+ .aboutme h2{
+ 	margin: 0;
+ 	font-size: 30px;
+ }
+ .aboutme span{
+ 	color:#0b8488;
+
+ }
+ .aboutme p{
+ 	font-size: 23px;
+ }
+
+ .myportfolio{
+ 	flex-basis: 40%;
+    padding: 30;
+ }
+ .mypicture{
+ 	width: 50%;
+ }
+ .mypicture img{
+    width: 300px;
+    height:350px;
+    object-fit:cover;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
