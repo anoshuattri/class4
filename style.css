@@ -55,7 +55,7 @@ header .logo a{
 }
 
 .container-bg img{
-    width: 500px;
+    width: 950px;
     height:400px;
     object-fit:cover;
     border-radius: 15px;
@@ -133,8 +133,8 @@ background: linear-gradient(63deg, rgba(102,255,118,1) 0%, rgba(110,208,146,0.40
  	width: 50%;
  }
  .mypicture img{
-    width: 300px;
-    height:350px;
+    width: 400px;
+    height:450px;
     object-fit:cover;
     border-radius: 15px;
 }
